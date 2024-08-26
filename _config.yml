@@ -26,16 +26,16 @@ about_content: | # this will include new lines to allow paragraphs
 
 content:
   - title: Education # Title for the section
-      layout: list # Type of content section (list/text)
-      content:
-        - layout: left
-          title: Danang University of Technology and Science
-          caption: 2020 - Now
-          sub_title: Electronics and Telecommunications
-          description: | # this will include new lines to allow paragraphs
-            - GPA: 3.52/4
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Danang University of Technology and Science
+        caption: 2020 - Now
+        sub_title: Electronics and Telecommunications
+        description: | # this will include new lines to allow paragraphs
+          - GPA: 3.52/4
 
-            - Learn about programming, computer hardware, MCU, sensor, freeRTOS, IoT application, computer communication & networking, signals and systems, signals processing, electronics, semiconductors, telecommunication.
+          - Learn about programming, computer hardware, MCU, sensor, freeRTOS, IoT application, computer communication & networking, signals and systems, signals processing, electronics, semiconductors, telecommunication.
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -53,7 +53,7 @@ content:
         title: Single-input audio amplifier
         description: | # this will include new lines to allow paragraphs
           Creating a single-input audio amplifier circuit without an output transformer (OTL) using BJTs, incorporating bass-treble control.
-  
+          
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
