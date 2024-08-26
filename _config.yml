@@ -61,7 +61,7 @@ content:
       - layout: top-middle
         title: Local weather condition forecast device
         description: | # this will include new lines to allow paragraphs
-        Creating a device that can measure water level, temperature, humidity, and altitude in relation to sea level, with the incorporation of the Zambretti algorithm for forecasting local weather conditions.
+          Creating a device that can measure water level, temperature, humidity, and altitude in relation to sea level, with the incorporation of the Zambretti algorithm for forecasting local weather conditions.
       
       - layout: top-middle
         title: Single-input audio amplifier
