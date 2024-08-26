@@ -5,6 +5,7 @@ favicon: images/favicon.ico
 # Content configuration version
 version: 2
 
+about_profile_image: images/profile.jpeg
 # Personal info
 name: Nguyen Nhat Minh
 title: Embedded Student
@@ -20,7 +21,6 @@ linkedin_username: nhatminhd27th
 facebook_username: nhatminhd27th
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
    I am a fourth-year student studying engineering in the Faculty of Electronics and Telecommunications at Danang University of Science and Technology, actively seeking opportunities for growth and advancement.
 
