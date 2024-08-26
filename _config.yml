@@ -1,69 +1,44 @@
-# Site
-repository: sproogen/resume-theme
-favicon: images/favicon.ico
-
-# Content configuration version
-version: 2
-
-# Personal info
 name: Nguyen Nhat Minh
-title: Embedded Student
-email: nhatminhd27th@gmail.com
-website: https://github.com/nhatminhd27th
+title: Embedded Intern
 
-# Dark Mode (true/false/never)
-darkmode: false
+contact:
+  phone: "0365252602"
+  email: "nhatminhd27th@gmail.com"
+  address [Địa chỉ] x: "K68/5, Ho Ba On, Lien Chieu, Danang"
 
-# Social links
-github_username:  nhatminhd27th
-linkedin_username: nhatminhd27th
-facebook_username: nhatminhd27th
-# About Section
-# about_title: About Me
-about_profile_image: images/profile.jpeg
-about_content: | # this will include new lines to allow paragraphs
-   I am a fourth-year student studying engineering in the Faculty of Electronics and Telecommunications at Danang University of Science and Technology, actively seeking opportunities for growth and advancement.
+about_me: |
+  I am a fourth-year student studying engineering in the Faculty of Electronics and Telecommunications at Danang University of Science and Technology, actively seeking opportunities for growth and advancement.
 
-content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Smart home
-        description: | # this will include new lines to allow paragraphs
-          Developing a smart home model applying IoTs using freeRTOS, implementing functions such as reading data from the DHT11 temperature sensor, MQ2 gas sensor, and rain sensor, controlling the skylight, turning lights on and off, sending data to the Thingsboard server, and controlling devices online.
-      - layout: top-middle
-        title: Local weather condition forecast device
-        description: | # this will include new lines to allow paragraphs
-          Creating a device that can measure water level, temperature, humidity, and altitude in relation to sea level, with the incorporation of the Zambretti algorithm for forecasting local weather conditions.
-      
-      - layout: top-middle
-        title: Single-input audio amplifier
-        description: | # this will include new lines to allow paragraphs
-          Creating a single-input audio amplifier circuit without an output transformer (OTL) using BJTs, incorporating bass-treble control.
+education:
+  - degree: "Electronics and Telecommunications"
+    period: "2020 - Now"
+    institution: "Danang University of Technology and Science"
+    gpa: "3.47/4"
+    details: |
+      - Learn about programming, computer hardware, MCU, sensor, freeRTOS, IoT application, computer communication & networking, signals and systems, signals processing, electronics, semiconductors, telecommunication.
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Danang University of Technology and Science
-        caption: 2020 - Now
-        sub_title: Electronics and Telecommunications
-        description: | # this will include new lines to allow paragraphs
-          - GPA: 3.52/4
+achievements_and_certificates:
+  - title: "Third Prize awarded in Student Scientific Research at the Faculty of Electronics and Telecommunications in Danang, December 2023."
+    link: "https://bit.ly/3rd_prize_award"
+  - title: "NVIDIA certificate for completing the Fundamentals of Deep Learning Workshop. (11/2023)"
+    link: "https://bit.ly/NVIDIA_Certificate"
 
-          - Learn about programming, computer hardware, MCU, sensor, freeRTOS, IoT application, computer communication & networking, signals and systems, signals processing, electronics, semiconductors, telecommunication.
+technical_skills:
+  - category: "MCU"
+    skills:
+      - "Stm32"
+      - "Esp32"
+  - category: "Programming language"
+    skills:
+      - "C/C++"
+  - category: "Tools"
+    skills:
+      - "STM32CubeIDE"
+      - "Arduino IDE"
+      - "Matlab"
+      - "Proteus"
+      - "..."
 
-# Footer
-footer_show_references: true
-# references_title: References on request (Override references text)
-
-# Build settings
-remote_theme: sproogen/resume-theme
-
-sass:
-  sass_dir: _sass
-  style: compressed
-
-plugins:
- - jekyll-seo-tag
+language:
+  - name: "English"
+    proficiency: "Capable of reading English documents, basic English communication, and writing."
