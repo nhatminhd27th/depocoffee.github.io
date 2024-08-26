@@ -25,6 +25,18 @@ about_content: | # this will include new lines to allow paragraphs
    I am a fourth-year student studying engineering in the Faculty of Electronics and Telecommunications at Danang University of Science and Technology, actively seeking opportunities for growth and advancement.
 
 content:
+  - title: Education # Title for the section
+      layout: list # Type of content section (list/text)
+      content:
+        - layout: left
+          title: Danang University of Technology and Science
+          caption: 2020 - Now
+          sub_title: Electronics and Telecommunications
+          description: | # this will include new lines to allow paragraphs
+            - GPA: 3.52/4
+
+            - Learn about programming, computer hardware, MCU, sensor, freeRTOS, IoT application, computer communication & networking, signals and systems, signals processing, electronics, semiconductors, telecommunication.
+
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -41,19 +53,7 @@ content:
         title: Single-input audio amplifier
         description: | # this will include new lines to allow paragraphs
           Creating a single-input audio amplifier circuit without an output transformer (OTL) using BJTs, incorporating bass-treble control.
-
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Danang University of Technology and Science
-        caption: 2020 - Now
-        sub_title: Electronics and Telecommunications
-        description: | # this will include new lines to allow paragraphs
-          - GPA: 3.52/4
-
-          - Learn about programming, computer hardware, MCU, sensor, freeRTOS, IoT application, computer communication & networking, signals and systems, signals processing, electronics, semiconductors, telecommunication.
-
+  
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
