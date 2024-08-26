@@ -53,9 +53,9 @@ content:
           Creating a single-input audio amplifier circuit without an output transformer (OTL) using BJTs, incorporating bass-treble control.
           
   - title:  ACHIVEMENTS AND CERTIFICATES  # Title for the section
-    layout: list # Type of content section (list/text)
+    layout: top-middle # Type of content section (list/text)
     content:
-      <p style='font-size:16px;'>Third Prize awarded in Student Scientific Research at the Faculty of Electronics and Telecommunications in Danang, December,  2023.
+      Third Prize awarded in Student Scientific Research at the Faculty of Electronics and Telecommunications in Danang, December,  2023.
       NVIDIA certificate for completing the Fundamentals of Deep Learning Workshop. (11/2023)
 
 # Footer
