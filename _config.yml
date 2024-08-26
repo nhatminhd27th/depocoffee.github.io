@@ -55,8 +55,8 @@ content:
   - title:  ACHIVEMENTS AND CERTIFICATES  # Title for the section
     layout: text # Type of content section (list/text)
     content:
-      Third Prize awarded in Student Scientific Research at the Faculty of Electronics and Telecommunications in Danang, December,  2023.
-      NVIDIA certificate for completing the Fundamentals of Deep Learning Workshop. (11/2023)
+      - Third Prize awarded in Student Scientific Research at the Faculty of Electronics and Telecommunications in Danang, December,  2023.
+      - NVIDIA certificate for completing the Fundamentals of Deep Learning Workshop. (11/2023)
 
 # Footer
 footer_show_references: true
