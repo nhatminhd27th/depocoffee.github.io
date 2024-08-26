@@ -22,7 +22,7 @@ facebook_username: nhatminhd27th
 # About Section
 # about_title: About Me
 about_content: | # this will include new lines to allow paragraphs
-   I am a fourth-year student studying engineering in the Faculty of Electronics and Telecommunications at Danang University of Science and Technology, actively seeking opportunities for growth and advancement.
+   I am a last-year student studying engineering in the Faculty of Electronics and Telecommunications at Danang University of Science and Technology, actively seeking opportunities for growth and advancement.
 
 content:
   - title: EDUCATION # Title for the section
@@ -48,7 +48,6 @@ content:
         title: Local weather condition forecast device
         description: | # this will include new lines to allow paragraphs
           Creating a device that can measure water level, temperature, humidity, and altitude in relation to sea level, with the incorporation of the Zambretti algorithm for forecasting local weather conditions.
-      
       - layout: top-middle
         title: Single-input audio amplifier
         description: | # this will include new lines to allow paragraphs
@@ -57,7 +56,7 @@ content:
   - title:  ACHIVEMENTS AND CERTIFICATES  # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      -  Third Prize awarded in Student Scientific Research at the Faculty of Electronics and Telecommunications in Danang, December,  2023.
+      - Third Prize awarded in Student Scientific Research at the Faculty of Electronics and Telecommunications in Danang, December,  2023.
       - NVIDIA certificate for completing the Fundamentals of Deep Learning Workshop. (11/2023)
 
 # Footer
