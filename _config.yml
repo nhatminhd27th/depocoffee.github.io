@@ -52,7 +52,7 @@ content:
       - layout: top-middle
         title: Single-input audio amplifier
         description: | # this will include new lines to allow paragraphs
-          Creating a single-input audio amplifier circuit without an output transformer (OTL) using BJTs, incorporating bass-treble control.
+          Creating a single-input audio amplifier circuit without aan output transformer (OTL) using BJTs, incorporating bass-treble control.
           
 # Footer
 footer_show_references: true
