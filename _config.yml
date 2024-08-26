@@ -55,13 +55,14 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        - title: Smart home
-          description: | # this will include new lines to allow paragraphs
+        title: Smart home
+        description: | # this will include new lines to allow paragraphs
            Developing a smart home model applying IoTs using freeRTOS, implementing functions such as reading data from the DHT11 temperature sensor, MQ2 gas sensor, and rain sensor, controlling the skylight, turning lights on and off, sending data to the Thingsboard server, and controlling devices online.
+      
       - layout: top-middle
-        - title: Smart home
-          description: | # this will include new lines to allow paragraphs
-          Developing a smart home model applying IoTs using freeRTOS, implementing functions such as reading data from the DHT11 temperature sensor, MQ2 gas sensor, and rain sensor, controlling the skylight, turning lights on and off, sending data to the Thingsboard server, and controlling devices online.
+        title: Smart home
+        description: | # this will include new lines to allow paragraphs
+        Developing a smart home model applying IoTs using freeRTOS, implementing functions such as reading data from the DHT11 temperature sensor, MQ2 gas sensor, and rain sensor, controlling the skylight, turning lights on and off, sending data to the Thingsboard server, and controlling devices online.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
