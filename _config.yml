@@ -89,9 +89,9 @@ content:
         caption: 2020 - Now
         sub_title: Electronics and Telecommunications
         description: | # this will include new lines to allow paragraphs
-          GPA: 3.52/4
+          - GPA: 3.52/4
 
-          Learn about programming, computer hardware, MCU, sensor, freeRTOS, IoT application, computer communication & networking, signals and systems, signals processing, electronics, semiconductors, telecommunication.
+          - Learn about programming, computer hardware, MCU, sensor, freeRTOS, IoT application, computer communication & networking, signals and systems, signals processing, electronics, semiconductors, telecommunication.
 
   - title: A Little More About Me
     layout: text
