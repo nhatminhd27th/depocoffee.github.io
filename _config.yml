@@ -56,16 +56,12 @@ content:
     content:
       - layout: top-middle
         - title: Smart home
-        description: | # this will include new lines to allow paragraphs
+          description: | # this will include new lines to allow paragraphs
            Developing a smart home model applying IoTs using freeRTOS, implementing functions such as reading data from the DHT11 temperature sensor, MQ2 gas sensor, and rain sensor, controlling the skylight, turning lights on and off, sending data to the Thingsboard server, and controlling devices online.
-        - title: Local weather condition forecast device
-        description: | # this will include new lines to allow paragraphs
-           Creating a device that can measure water level, temperature, humidity, and altitude in relation to sea level, with the incorporation of the Zambretti algorithm for forecasting local weather conditions.
-        - title: Single-input audio amplifier
-        description: | # this will include new lines to allow paragraphs
-           Creating a single-input audio amplifier circuit without an output transformer (OTL) using BJTs, incorporating bass-treble control.
-           
-
+      - layout: top-middle
+        - title: Smart home
+          description: | # this will include new lines to allow paragraphs
+          Developing a smart home model applying IoTs using freeRTOS, implementing functions such as reading data from the DHT11 temperature sensor, MQ2 gas sensor, and rain sensor, controlling the skylight, turning lights on and off, sending data to the Thingsboard server, and controlling devices online.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
